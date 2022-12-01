@@ -3,6 +3,7 @@ name:               advent-of-code
 version:            0.1.0
 author:             Ashley Smith
 maintainer:         git@aas.sh
+data-files:         inputs/*.txt
 
 executable advent-of-code
   main-is:          Main.hs
@@ -13,3 +14,9 @@ executable advent-of-code
     base,
   default-extensions:
     LambdaCase
+  other-modules:
+    Paths_advent_of_code,
+    Year2022.Day01,
+    Util
+  autogen-modules:
+    Paths_advent_of_code
