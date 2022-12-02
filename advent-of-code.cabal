@@ -17,6 +17,7 @@ executable advent-of-code
   other-modules:
     Paths_advent_of_code,
     Year2022.Day01,
+    Year2022.Day02,
     Util
   autogen-modules:
     Paths_advent_of_code
