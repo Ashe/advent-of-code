@@ -12,12 +12,14 @@ executable advent-of-code
   ghc-options:      -Wall
   build-depends:
     base,
+    containers
   default-extensions:
     LambdaCase
   other-modules:
     Paths_advent_of_code,
     Year2022.Day01,
     Year2022.Day02,
+    Year2022.Day03,
     Util
   autogen-modules:
     Paths_advent_of_code

@@ -6,6 +6,7 @@ import Paths_advent_of_code
 
 import qualified Year2022.Day01 as Day01
 import qualified Year2022.Day02 as Day02
+import qualified Year2022.Day03 as Day03
 
 --------------------------------------------------------------------------------
 
@@ -52,5 +53,7 @@ doPuzzle 2022 1 1 = Day01.part01
 doPuzzle 2022 1 2 = Day01.part02
 doPuzzle 2022 2 1 = Day02.part01
 doPuzzle 2022 2 2 = Day02.part02
+doPuzzle 2022 3 1 = Day03.part01
+doPuzzle 2022 3 2 = Day03.part02
 doPuzzle y d p = const $ show y ++ "/" ++ show d ++ " part " ++ show p
   ++ ": puzzle not found."

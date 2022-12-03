@@ -5,13 +5,13 @@ module Year2022.Day02 (
 
 --------------------------------------------------------------------------------
 
--- Entry point of first puzzle for 01/2022
+-- Entry point of first puzzle for 02/2022
 part01 :: [String] -> String
 part01 values = show $ foldl addScores 0 values
   where addScores score line = score + getRoundScore (getRound line)
 
 
--- Entry point of second puzzle for 01/2022
+-- Entry point of second puzzle for 02/2022
 part02 :: [String] -> String
 part02 values = show $ foldl addScores 0 values
   where addScores score line = score + getRoundScore (getRoundAlternative line)
